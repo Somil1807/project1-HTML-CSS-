@@ -1,0 +1,149 @@
+h1{
+    font-family: 'Limelight', cursive;
+}
+.navbar-brand img{
+    border-radius: 50%;
+}
+.c1 img{
+	height: 500px;
+}
+.navlink{
+	color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 107%;
+    font-weight: 600;
+}
+.navlink:hover{
+	color: pink;
+	text-decoration: underline;
+}
+.navbar-toggler{
+	color: pink;
+}
+.c1 p{
+	color: white;
+	font-size: 41px;
+	font-weight: 600;
+	margin-bottom: 157px;
+}
+.color1{
+	color: #782828;
+}
+.color2{
+	color:pink;
+}
+.b{
+	margin-top: 13px;
+    text-decoration: underline;
+}
+.img1{
+	border-radius: 15px;
+    box-shadow: 0px 0px 10px #782828;
+    width: 300px;
+}
+.txt1{
+	margin-top: 36px;
+	color: #782828;
+	font-size: 22px;
+	text-shadow: 0px 2px 3px #782828;
+}
+/*.bg1{
+   background: #ffc0cb4f;
+   background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(../image/np5.jpg);
+}*/
+.txt2{
+	color: #782828;
+	text-decoration: underline;
+    font-size: 35px;
+}
+.txt3{
+	color: #782828;
+    text-shadow: 0px 2px 11px;
+    padding-left: 57px;
+}
+.c2 img{
+	width: 90%;
+	height: 497px;
+	margin-top: 40px;
+	border-radius: 26px;
+	box-shadow: 0px 0px 10px #782828;
+}
+.c2 p{
+	margin-bottom: 31%;
+	font-size: 30px;
+	font-weight: 600;
+	text-shadow: 0px 4px 10px;
+	animation-delay: 1s;
+}
+.c2 p:hover{
+	color: pink;
+}
+.txt4{
+	text-align: justify;
+	padding: 49px;
+	line-height: 30px;
+    font-weight: 600;
+}
+.col-md-4 a{
+	text-decoration: none;
+}
+.bg1{
+	background: url(https://www.mptourism.com/images/culture-background.jpg);
+}
+.a1 img{
+	height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+    margin-top: 13px;
+}
+.a1 p{
+	padding: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.outline{
+	border-bottom: 2px dashed;
+	text-decoration: none;
+}
+.f1{
+	background:#782828; 
+}
+.f1 img{
+	width: 367px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+@media(max-width: 768px){
+	.navbar-brand img{
+		width: 50px;
+	}
+	.c1 img{
+	height: 400px;
+    }
+    .c1 p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 70px;
+    }
+    .img1{
+    	margin-top: 24px;
+    }
+    .c2 img{
+    	height: 300px;
+    }
+    .txt3{
+    	text-align: center;
+    	padding-left: 0px;
+    }
+    .a1 h3{
+    	margin-top: 42px;
+    }
+    .f1 img{
+    	width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    }
+}
