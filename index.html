@@ -2,11 +2,11 @@
 <html>
 <head>
 	<title>MP Tours & Travel</title>
-	<link rel="icon" href="image/fevicon.png" >
-	<meta charset="utf-8">
+	  <link rel="icon" href="image/fevicon.png" >
+	  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"><!-- bootstrap link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script><!-- javascript link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"><!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script><!-- javascript link -->
     <link rel="stylesheet" href="css/index.css"><!-- external css link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> <!-- animation link -->
@@ -26,16 +26,27 @@
         <div class="collapse navbar-collapse justify-content-end" id="t">
           <ul class="navbar-nav text-center">
               <li class="nav-item">
-                <a class="navlink active1" href="#">HOME</a>
+                <a class="navlink " href="index.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="navlink dropdown-toggle" data-bs-toggle="dropdown" id="mydropdown" href="#">EXPLORE</a>
+                <ul class="dropdown-menu ">
+                  <li><a href="sanchi.html">SACRED SANCHI</a></li>
+                  <li><a href="gwalior.html">MELODIC GWALIOR</a></li>
+                  <li><a href="khajuraho.html">GRACEFUL KHAJURAHO</a></li>
+                  <li><a href="orcha.html">MAJESTIC ORCHA</a></li>
+                  <li><a href="ujjain.html">ANICIENT CITY UJJAIN</a></li>
+                  <li><a href="pachmarhi.html">SERENE PACHMARHI</a></li>
+                  <li><a href="pench.html">UNTAMED PENCH</a></li>
+                  <li><a href="">DAZZLING PANNA</a></li>
+                  <li><a href="">DELIGHTFUL KANHA</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="navlink" href="#">EXPLORE</a>
-              </li>
-              <li class="nav-item">
-                <a class="navlink" href="#">PLAN YOUR JOURNEY</a>
-              </li>
-              <li class="nav-item">
-                <a class="navlink" href="#"><i class="fa fa-search" aria-hidden="true"></i>SEARCH</a>
+                <!-- <a class="navlink" href="#" type="button" data-bs-toggle="modal" data-bs-target="#aa" ><i class="fa fa-search" aria-hidden="true"></i>SEARCH</a> --> 
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#aa">
+                  <a class="navlink" href="#"><i class="fa fa-search" aria-hidden="true"></i>SEARCH</a> 
+                </button>
               </li>
               <li class="nav-item">
                 <a class="navlink" href="#">CONTACT US</a>
@@ -71,40 +82,40 @@
   <br><br>
   <div class="row">
     <div class="col-md-4 text-center">
-      <a href="">
+      <a href="sanchi.html">
       <img src="image/top place/SANCHI1.jpg" class="img1">
       <h3 class=" txt1">SACRED SANCHI</h3>
-    </a>
+      </a>
     </div>
     <div class="col-md-4 text-center">
-      <a href="">
+      <a href="pachmarhi.html">
       <img src="image/top place/panchmari1.jpg" class="img1">
       <h3 class=" txt1">SERENE PACHMARHI</h3>
       </a>
     </div>
     <div class="col-md-4 text-center">
-      <a href="">
+      <a href="gwalior.html">
       <img src="image/top place/gwalior2.jpg" class="img1">
       <h3 class=" txt1">MELODIC GWALIOR</h3>
-    </a>
+      </a>
     </div>
   </div><!-- row2 end -->
   <br>
   <div class="row">
     <div class="col-md-4 text-center">
-      <a href="">
+      <a href="orcha.html">
       <img src="image/top place/orcha1.jpg" class="img1">
       <h3 class=" txt1">MAJESTIC ORCHA</h3>
       </a>
     </div>
     <div class="col-md-4 text-center">
-      <a href="">
-      <img src="image/top place/bhedaghat1.jpg" class="img1">
-      <h3 class=" txt1">BREATHTAKING BHEDAGHAT</h3>
+      <a href="pench.html">
+      <img src="image/slider3/pench.jpg" class="img1">
+      <h3 class=" txt1"> UNTAMED PENCH</h3>
       </a>
     </div>
     <div class="col-md-4 text-center">
-      <a href="">
+      <a href="khajuraho.html">
       <img src="image/top place/KHAJURAHO1.jpg" class="img1">
       <h3 class=" txt1">GRACEFUL KHAJURAHO</h3>
       </a>
@@ -131,26 +142,30 @@
       <!-----slider2 start-------->
       <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <a href="">
-            <div class="carousel-item active c2" data-bs-interval="2000">
-             <img src="image/slider2/gwalior1.jpg" alt="g1">
-             <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">MELODIC GWALIOR</p>
-             </div><!-- carousel caption end -->
-            </div><!-- carousel item end -->
+            <div class="carousel-item active c2" data-bs-interval="3000">
+              <a href="gwalior.html">
+               <img src="image/slider2/gwalior1.jpg" alt="g1">
+               <div class="carousel-caption">   
+                  <p class="animate__animated animate__bounceIn">MELODIC GWALIOR</p>
+               </div><!-- carousel caption end -->
+              </a> 
+            </div><!-- carousel item end --->  
             <div class="carousel-item  c2" data-bs-interval="2000">
-             <img src="image/slider2/sanchi2.jpg" alt="s2">
-             <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn"> SACRED SANCHI</p>
-             </div><!-- carousel caption end -->
-             </div><!-- carousel item end -->
+              <a href="sanchi.html">
+                <img src="image/slider2/sanchi2.jpg" alt="s2">
+                <div class="carousel-caption">
+                  <p class="animate__animated animate__bounceIn"> SACRED SANCHI</p>
+                </div><!-- carousel caption end -->
+              </a>  
+            </div><!-- carousel item end -->   
             <div class="carousel-item  c2" data-bs-interval="2000">
-             <img src="image/slider2/khajuraho1.jpg" alt="k1">
-             <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">GRACEFUL KHAJURAHO</p>
-             </div><!-- carousel caption end -->
+              <a href="khajuraho.html">
+                <img src="image/slider2/khajuraho1.jpg" alt="k1">
+                <div class="carousel-caption">
+                  <p class="animate__animated animate__bounceIn">GRACEFUL KHAJURAHO</p>
+                </div><!-- carousel caption end -->
+              </a>  
             </div><!-- carousel item end -->
-          </a>
         </div><!-- carousel inner end -->
       </div>
       <!-----slider2 end---------->
@@ -173,26 +188,30 @@
       <!-----slider3 start-------->
       <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <a href="">
-            <div class="carousel-item active c2" data-bs-interval="2000">
-            <img src="image/slider3/kanha1.jpg" alt="g1" >
-            <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">KANHA TIGER RESERVE</p>
-            </div><!-- carousel caption end -->
+            <div class="carousel-item c2" data-bs-interval="2000">
+              <a href="">
+               <img src="image/slider3/kanha1.jpg" alt="g1" >
+               <div class="carousel-caption">
+                 <p class="animate__animated animate__bounceIn">KANHA TIGER RESERVE</p>
+               </div><!-- carousel caption end -->
+              </a>
+            </div><!-- carousel item end -->
+            <div class="carousel-item active c2" data-bs-interval="3000">
+              <a href="pench.html">
+               <img src="image/slider3/pench.jpg" alt="s2">
+               <div class="carousel-caption">
+                 <p class="animate__animated animate__bounceIn">PENCH NATIONAL PARK</p>
+               </div><!-- carousel caption end -->
+              </a>
             </div><!-- carousel item end -->
             <div class="carousel-item  c2" data-bs-interval="2000">
-            <img src="image/slider3/pench.jpg" alt="s2">
-            <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">PENCH NATIONAL PARK</p>
-            </div><!-- carousel caption end -->
+              <a href="">
+              <img src="image/slider3/panna.jpg" alt="k1">
+              <div class="carousel-caption">
+                <p class="animate__animated animate__bounceIn">PANNA NATIONAL PARK</p>
+              </div><!-- carousel caption end -->
+              </a>
             </div><!-- carousel item end -->
-            <div class="carousel-item  c2" data-bs-interval="2000">
-            <img src="image/slider3/panna.jpg" alt="k1">
-            <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">PANNA NATIONAL PARK</p>
-            </div><!-- carousel caption end -->
-            </div><!-- carousel item end -->
-          </a>
         </div><!-- carousel inner end -->
       </div>
       <!-----slider3 end---------->
@@ -214,26 +233,30 @@
       <!-----slider4 start-------->
       <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <a href="">
-            <div class="carousel-item active c2" data-bs-interval="2000">
-             <img src="image/slider4/omkareshwar.jpg" alt="om">
-             <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">OMKARESHWAR TEMPLE</p>
-             </div><!-- carousel caption end -->
+            <div class="carousel-item c2" data-bs-interval="2000">
+             <a href="">
+                <img src="image/slider4/omkareshwar.jpg" alt="om">
+                <div class="carousel-caption">
+                  <p class="animate__animated animate__bounceIn">OMKARESHWAR TEMPLE</p>
+                </div><!-- carousel caption end -->
+             </a>   
+            </div><!-- carousel item end -->
+            <div class="carousel-item active c2" data-bs-interval="3000">
+             <a href="orcha.html">
+                <img src="image/slider4/orcha.jpg" alt="orcha">
+                <div class="carousel-caption">
+                  <p class="animate__animated animate__bounceIn">MAJESTIC ORCHA</p>
+                </div><!-- carousel caption end -->
+             </a>   
             </div><!-- carousel item end -->
             <div class="carousel-item  c2" data-bs-interval="2000">
-             <img src="image/slider4/orcha.jpg" alt="orcha">
-             <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">MAJESTIC ORCHA</p>
-             </div><!-- carousel caption end -->
-             </div><!-- carousel item end -->
-            <div class="carousel-item  c2" data-bs-interval="2000">
-             <img src="image/slider4/ujjain.jpg" alt="ujjain">
-             <div class="carousel-caption">
-              <p class="animate__animated animate__bounceIn">UJJAIN TEMPLE</p>
-             </div><!-- carousel caption end -->
+             <a href="ujjain.html">
+                <img src="image/slider4/ujjain.jpg" alt="ujjain">
+                <div class="carousel-caption">
+                  <p class="animate__animated animate__bounceIn">UJJAIN TEMPLE</p>
+                </div><!-- carousel caption end -->
+             </a>  
             </div><!-- carousel item end -->
-          </a>
         </div><!-- carousel inner end -->
       </div>
       <!-----slider4 end---------->
@@ -320,12 +343,12 @@
       </div>
       <div class="col-md-3 text-center f2">
         <h1>TOP DESTINATIONS</h1>
-        <a href="">SACRED SANCHI</a><br><br>
-        <a href="">SERENE PACHMARI</a><br><br>
-        <a href="">MELODIC GWALIOR</a><br><br>
-        <a href="">MAJESTIC ORCHA</a><br><br>
-        <a href="">BREATHTAKING BHEDAGHAT</a><br><br>
-        <a href="">GRACEFUL KHAJURAHO</a><br><br>
+        <a href="sanchi.html">SACRED SANCHI</a><br><br>
+        <a href="pachmarhi.html">SERENE PACHMARI</a><br><br>
+        <a href="gwalior.html">MELODIC GWALIOR</a><br><br>
+        <a href="orcha.html">MAJESTIC ORCHA</a><br><br>
+        <a href="pench.html">UNTAMED PENCH</a><br><br>
+        <a href="khajuraho.html">GRACEFUL KHAJURAHO</a><br><br>
       </div>
       <div class="col-md-3 text-center f2">
         <h1>HELP & SUPPORT</h1>
@@ -353,6 +376,29 @@
 
 </footer>
 <!-----------footer end----------------------->
+<!-----------modal div start------------------>
+<div class="modal fade" id="aa">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">search</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row">
+            <img src="image/modal1.gif">
+          </div>
+          <div class="row">
+            <i class="fa fa-search" aria-hidden="true"></i><input id="input" type="search" name="" placeholder="Search Your Favorite City" class="form-control">
+          </div>
+        </div><!-- container fluid end -->
+      </div><!-- modal body end -->
+    </div><!-- modal content end -->
+  </div><!-- modal dialog end -->    
+</div><!-- modal fade end -->
+<!-----------modal div end------------------> 
+
 
 </body>
 </html>

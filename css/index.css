@@ -41,6 +41,7 @@ h1{
 	border-radius: 15px;
     box-shadow: 0px 0px 10px #782828;
     width: 300px;
+    height: 215px;
 }
 .txt1{
 	margin-top: 36px;
@@ -138,6 +139,45 @@ h1{
 	color: white;
 	text-decoration: none;
 }
+.dropdown-menu a{
+text-decoration: none;
+color:#782828;
+}
+.dropdown-menu a:hover{
+	background: #ffc0cb61;
+	text-decoration: underline;
+}
+.modal-content{
+	color: #782828;
+	border:10px solid #782828;
+}
+.btn{
+	    position: relative;
+        bottom: 6px;
+        box-shadow: none!important;
+
+}
+.modal-title{
+	font-size: 33px;
+}
+.form-control{
+	border: 1px solid #782828;
+	box-shadow: none;
+	padding-left: 116px;
+    font-size: 19px;
+}
+.modal-body i{
+	position: relative;
+    top: 32px;
+    left: 15px;
+    font-size: 18px;
+}
+.modal-body img{
+	height: 243px;
+    width: 80%;
+    position: relative;
+    left: 42px;
+}
 @media(max-width: 768px){
 	.navbar-brand img{
 		width: 50px;
@@ -175,5 +215,14 @@ h1{
     .f2 h1{
     	margin-top: 50px;
     }
+    .form-control{
+	padding-left: 48px;
+}
+.modal-body img{
+	height: 171px;
+    width: 85%;
+    position: relative;
+    left: 18px;
+}
 
 }
