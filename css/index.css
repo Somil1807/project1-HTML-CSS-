@@ -115,6 +115,8 @@ h1{
 	width: 367px;
     margin-top: 70px;
     margin-bottom: 70px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 7px;
 }
 .f2 h1{
 	font-size: 20px;
@@ -224,5 +226,11 @@ color:#782828;
     position: relative;
     left: 18px;
 }
-
+.cu{
+    position: relative;
+    bottom: 10px;
+}
+.nav-item{
+    margin: 7px;
+}
 }
